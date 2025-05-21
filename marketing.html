@@ -3,122 +3,148 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="StyleSync AI is your personal style assistant. Instantly know if your outfit matches with AI-powered fashion advice. Available on the App Store.">
-  <title>StyleSync AI – Your Personal Style Assistant</title>
+  <meta name="description" content="StyleSync AI – Your Personal AI Outfit Checker. Match clothes, enhance outfits, and build confidence with fashion-powered AI.">
+  <title>StyleSync AI – Match Your Style With AI</title>
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background: #fafafa;
-      color: #333;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #f9f9f9;
+      color: #222;
       line-height: 1.6;
     }
-    header, section, footer {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
+
     header {
+      background: white;
+      padding: 2rem 1rem;
       text-align: center;
-      background: #fff;
-      border-bottom: 1px solid #eaeaea;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     }
+
+    header img {
+      height: 64px;
+      margin-bottom: 1rem;
+    }
+
     h1 {
       font-size: 2.5rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.25rem;
     }
-    h2 {
-      font-size: 1.75rem;
-      margin-top: 2rem;
-      color: #111;
+
+    .tagline {
+      font-size: 1.1rem;
+      color: #555;
     }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    ul li::before {
-      content: "✅ ";
-    }
+
     .button {
       display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
       background: #007aff;
-      color: #fff;
-      border-radius: 6px;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1.5rem;
       text-decoration: none;
       font-weight: 600;
+      border-radius: 8px;
+      transition: background 0.3s;
     }
-    .affiliate, footer {
-      font-size: 0.9rem;
-      color: #666;
-      margin-top: 2rem;
+
+    .button:hover {
+      background: #005ecb;
     }
+
+    section {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    }
+
+    .video-container video {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+    }
+
+    .screenshot {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-top: 1rem;
+    }
+
     footer {
       text-align: center;
-      padding: 1rem;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #666;
+      border-top: 1px solid #eee;
     }
   </style>
 </head>
 <body>
 
   <header>
+    <img src="StyleSyncIcon.png" alt="StyleSync AI App Icon" />
     <h1>StyleSync AI</h1>
-    <p>Your Personal AI Style Assistant</p>
+    <p class="tagline">AI Outfit Checker & Personal Style Assistant</p>
     <a class="button" href="https://apps.apple.com/us/app/stylesync-ai/id6745907418" target="_blank">Download on the App Store</a>
   </header>
 
   <section>
-    <h2>👀 Stop Guessing. Start Dressing.</h2>
-    <p>Tired of asking, “Do these clothes match?” Let <strong>StyleSync AI</strong> do the thinking for you. With just a few taps, you’ll get instant feedback on your outfit—powered by cutting-edge AI trained to understand modern fashion.</p>
-    <p>Whether you're heading to a date, a job interview, or just want to feel confident on a casual day out, StyleSync AI helps you look your best.</p>
-  
-<h2>Disclosures & Ethical Compliance</h2>
-<p><strong>Amazon Affiliate:</strong> StyleSync AI participates in the Amazon Services LLC Associates Program. We may earn a commission from qualifying purchases made through Amazon links shown in the app. These links are contextual and based solely on outfit-related content you provide.</p>
-
-<p><strong>Google AdMob:</strong> We integrate Google AdMob to display banner, interstitial, and rewarded ads. AdMob may collect and use device data such as IP address, device identifier, and user interaction with ads. Users can opt out of ad personalization through their device settings.</p>
-
-<p><strong>OpenAI API:</strong> StyleSync AI uses OpenAI’s API for AI-powered outfit analysis. Submitted images are sent temporarily for analysis and are not stored or linked to any user identity. This service complies with OpenAI’s data usage policies and ethical AI principles.</p>
-
-</section>
-
-  <section>
-    <h2>📸 How It Works</h2>
+    <h2>🎯 Why StyleSync?</h2>
+    <p>Tired of guessing whether your clothes match? Let AI do the thinking. With StyleSync AI, just snap a photo and instantly know if your outfit works — or how it could look even better.</p>
     <ul>
-      <li>Snap your clothes</li>
-      <li>Swipe to build your outfit</li>
-      <li>Tap Analyze to get AI-powered feedback</li>
+      <li>✔️ Fast & fun outfit feedback</li>
+      <li>✔️ AI-generated improvement suggestions</li>
+      <li>✔️ Built for color-blind and fashion-curious users alike</li>
     </ul>
   </section>
 
   <section>
-    <h2>🎯 Built For</h2>
-    <ul>
-      <li>Anyone who wants a second opinion on what to wear</li>
-      <li>Color-blind users who need help coordinating</li>
-      <li>Style beginners looking to improve</li>
-      <li>Anyone who wants to stop stressing and start dressing confidently</li>
-    </ul>
+    <h2>📸 Live App Demo</h2>
+    <div class="video-container">
+      <video controls autoplay muted playsinline>
+        <source src="StyleSyncDemo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
   </section>
 
   <section>
-    <h2>🔓 Unlock More With StyleSync+</h2>
-    <ul>
-      <li>Unlimited outfit analyses</li>
-      <li>Ad-free experience</li>
-      <li>AI-generated suggestions to improve your look</li>
-    </ul>
-    <p>Try it free inside the app.</p>
+    <h2>📱 Inside the App</h2>
+    <img src="enhanced-screenshot.png" alt="Enhanced Outfit Screenshot" class="screenshot" />
+    <img src="launchscreen.png" alt="StyleSync Launch Screen" class="screenshot" />
   </section>
 
-  <section class="affiliate">
-    <p><strong>Affiliate Disclosure:</strong> StyleSync AI participates in the Amazon Services LLC Associates Program. We may earn a small commission from qualifying purchases made through Amazon links in the app.</p>
+  <section>
+    <h2>🔓 Unlock StyleSync+</h2>
+    <p>Subscribe to unlock powerful features like:</p>
+    <ul>
+      <li>✨ Unlimited outfit analyses</li>
+      <li>🚫 No ads</li>
+      <li>👗 AI-generated outfit suggestions</li>
+    </ul>
+    <p>Try it free inside the app!</p>
   </section>
 
   <footer>
-    <p>Questions? Contact us at <a href="mailto:markmayne@ymail.com">markmayne@ymail.com</a></p>
-    <p>© 2025 StyleSync AI. All rights reserved.</p>
+    <p>Affiliate & Ad Disclosure: We use Amazon Affiliate links and Google AdMob for monetization. No personal identity or photos are ever stored.</p>
+    <p>Contact: <a href="mailto:markmayne@ymail.com">markmayne@ymail.com</a></p>
+    <p>© 2025 StyleSync AI</p>
   </footer>
 
 </body>
