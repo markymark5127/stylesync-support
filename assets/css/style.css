@@ -138,3 +138,17 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.form-link {
+  display: inline-block;
+  margin-top: 1.25rem;
+  padding: 0.75rem 1.25rem;
+  background-color: #007aff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.form-link:hover {
+  background-color: #005ecb;
+}
