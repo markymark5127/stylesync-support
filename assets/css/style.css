@@ -65,6 +65,10 @@ h1 {
   background: var(--primary-dark);
 }
 
+.button + .button {
+  margin-left: 0.5rem;
+}
+
 section {
   max-width: 900px;
   margin: 3rem auto;
